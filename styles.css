@@ -142,6 +142,7 @@ nav ul li{
 .topTen .images img{
     height: 146px;
     width: 100px;
+    margin-left: 0;
 }
 .topTen .rank{
     display: flex;

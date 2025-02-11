@@ -38,12 +38,8 @@
         display: block;
         cursor: pointer;
     }
-    .images{
-        gap: 1px;
-    }
-    .images img{
-        width: 180px;
-    }
+    
+    
     .heading{
         margin-left: 20px;
     }
