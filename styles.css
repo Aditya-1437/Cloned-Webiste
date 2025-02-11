@@ -10,7 +10,16 @@
 .top{
     background: rgba(0,0,0,0.2)url("assets/Title-Image.png");
     background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
       
+}
+img,li{
+    cursor: pointer;
+}
+img:hover{
+    box-shadow: 2px 2px;
 }
 section{
     height: "337px";
@@ -128,7 +137,7 @@ nav ul li{
 #top10{
     position: relative;
     left: 255px;
-    top: 50px;
+    top: 55px;
 }
 .topTen .images img{
     height: 146px;
@@ -178,4 +187,27 @@ footer{
     margin-top: 25px;
     margin-left: 46px;
     align-items: center;
+    gap: 8px;
+}
+
+.tog-cnt{
+    display: none;
+}
+
+.toggle-btn{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    right: 10px;
+    top: 30px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.toggle-btn .bar{
+    width: 90%;
+    height: 4px;
+    border-radius: 10px;
+    background-color: white;
+    
 }
